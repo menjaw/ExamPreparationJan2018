@@ -1,0 +1,8 @@
+entity\Book_.class
+jpaControl\CreateTables.class
+entity\Book.class
+entity\EBook.class
+entity\PaperBook_.class
+entity\EBook_.class
+entity\PaperBook.class
+logic\Facade.class

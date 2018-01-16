@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>THREADS</h1>
+        <h2>Exercise 1</h2>
+        <ol>
+            <li>
+                <p>
+                    Do you observe a need for synchronization techniques on any of the threads in practise, or does your program work by accident?
+                </p>
+                <p>
+                    - ANSWER
+                </p>
+            </li>
+            <li>
+                <p>
+                    Regardless of whether you observe the problem on your machine, we need to handle it.
+                    What is the problem I’m hinting at, and how can we solve it? (Since I’m such a nice guy, here’s a hint: think about the VolatileExample class from the demo today).
+                </p>
+                <p>
+                    - ANSWER 
+                </p>
+            </li>
+            <li>
+                <p>
+                    argue that your solution is correct (argue, don’t prove)
+                </p>
+                <p>
+                    - ANSWER
+                </p>
+            </li>
+        </ol>
+
+        <h2>Exercise 2</h2>
+        <ol>
+            <li>
+                <p>
+                    Are you able to provoke the expected error on your machine?
+                </p>
+                <p>
+                    -ANSWER: No I am not. I have tried to run it more than 20 times without errors. Then I tried to create 4 threads and then run it, but still with no errors.
+                </p>
+            </li>
+            <li>
+                <p>
+                    How often does the problem occur?
+                </p>
+                <p>
+                    -ANSWER: Never. Nomatter how many times I run it it will only make even numbers.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use the synchronization techniques you’ve learned today, to make next() method atomic with respect to itself.
+                </p>
+                <p>
+                    -ANSWER: Despite that I couldn't make it to fail I have surrounded the method synchronized, but it is hard to see if it make a different since it was working the whole time.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Argue that your solution is correct (argue, don’t prove)
+                    I know that the method in the Even-class works perfectly and only prints out even numbers.
+                    I know my ThreadClass is right and call the next()-method from the Even-class.
+                    I have created 4 threads in the Main-class that all are using the constructor in the ThreadClass.
+                    I know my solution is correct because our clever teacher Sigurd has checked it. 
+                </p>
+                <p>
+                    -ANSWER:
+                </p>
+            </li>
+
+        </ol>
+
+        <h2>Exercise 3</h2>
+        <h2>Exercise 4</h2>
+    </body>
+</html>

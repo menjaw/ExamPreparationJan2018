@@ -1,0 +1,2 @@
+drop database orm_inheritance_jpa;
+create database orm_inheritance_jpa;
